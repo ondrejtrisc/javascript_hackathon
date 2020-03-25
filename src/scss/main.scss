@@ -32,6 +32,7 @@ body {
   height: 85px;
 
   &--pac {
+    background-image: url('/img/pacman.png');
     position: absolute;
     font-weight: bold;
     text-align: center;
@@ -54,33 +55,5 @@ body {
 
   &--tomb {
     background-image: url('/img/tomb.png');
-  }
-}
-
-.pacboy {
-  &-active-light {
-    background-image: url('/img/pacboy-active-light.png');
-  }
-
-  &-active-medium {
-    background-image: url('/img/pacboy-active-medium.png');
-  }
-
-  &-active-dark {
-    background-image: url('/img/pacboy-active-dark.png');
-  }
-}
-
-.pacgirl {
-  &-active-light {
-    background-image: url('/img/pacgirl-active-light.png');
-  }
-
-  &-active-medium {
-    background-image: url('/img/pacgirl-active-medium.png');
-  }
-
-  &-active-dark {
-    background-image: url('/img/pacgirl-active-dark.png');
   }
 }
